@@ -31,6 +31,10 @@ int main() {
                 printf("Error: Division by zero is not allowed\n");
             }
             break;
+        case '^':
+            result = pow(num1, num2);
+            break;
+
         default:
             printf("Error: Invalid operator\n");
     }
